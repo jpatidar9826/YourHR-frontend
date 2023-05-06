@@ -1,0 +1,223 @@
+.container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.form-row{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.form-row label{
+    padding-left: .2rem;
+    font-size: small;
+    font-weight: lighter;
+    color: #3AAFA9;
+    line-height: normal;
+}
+.form-row input{
+    max-width: 700px;
+    outline: none;
+    padding: .5rem;
+    height: 40px;
+    padding-left: 1rem;
+    line-height: normal;
+    border-radius: 0.75rem;
+    color: #c5eeec;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    margin-top: 5px;
+}
+.form-row input:focus{
+
+    box-shadow: 0 0 0 1px black;
+}
+.input-error{
+    box-shadow: 0 0 0 1px red;
+}
+.no-error{
+    padding-left: 0.2rem;
+    color: rgb(0, 255, 13);
+    font-size: x-small;
+    line-height: 1rem;
+    font-weight: 300;
+}
+.error{
+    padding-left: 0.2rem;
+    color: red;
+    font-size: x-small;
+    line-height: 1rem;
+    font-weight: 300;
+}
+.submit-btn-wrap{
+    height: fit-content;
+    padding: 20px 0;
+}
+.container button{
+    
+}
+.enabled-btn:hover{
+    background-color: black;
+    font-size: 1.1rem;
+    color: #3AAFA9;
+}
+.enabled-btn{
+    background-color: transparent;
+    border-radius: 0.75rem;
+    width: 60%;
+    max-width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    line-height: 1.75rem;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    color: black;
+    transition: .8s ease-in-out;
+}
+.disabled-btn{
+    background-color: transparent;
+    border-radius: 0.75rem;
+    width: 60%;
+    max-width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    line-height: 1.75rem;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    color: black;
+    transition: .8s ease-in-out;
+    opacity: .5;
+}
+
+
+input::file-selector-button {
+    background-color: transparent;
+    border-radius: 0.75rem;
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+    margin-right: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    line-height: 1.75rem;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    color: rgb(255, 255, 255);
+    transition: .8s ease-in-out;
+}
+
+input::file-selector-button:hover{
+    background-color: black;
+    font-size: 1rem;
+    color: #3AAFA9;
+}
+
+.preview-row{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+.preview-button{
+    margin-left: 10px;
+    padding: 0;
+    background-color: black;
+    border-radius: 0.75rem;
+    width: 45px;
+    height: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    color: #3AAFA9;
+    transition: .8s ease-in-out;
+
+}
+.preview-button svg{
+    margin: 0 10px;
+}
+
+.preview-wrap{
+    position: fixed;
+    z-index: 5;
+    background-color: #0000006e;
+    backdrop-filter: blur(15px) saturate(100%) contrast( 90%) brightness( 110% );
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.75rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.preview-close-button{
+    padding: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 6;
+    margin: 2%;
+    background-color: rgb(255, 0, 0);
+    border-radius: 0.75rem;
+    width: 45px;
+    height: 45px;
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    position: fixed;
+    color: #ffffff;
+    transition: .8s ease-in-out;
+}
+.preview-close-button svg{
+    margin: 0 10px;
+}
+.preview-window{
+    padding: 0;
+    margin: auto;
+    background-color: aliceblue;
+    width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    border: 1px solid rgb(0, 0, 0 , 0.7);
+}
+
+.preview-doc{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+}
+.preview-page{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.preview-page canvas{
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.preview-page div{
+    display: none;
+}
+

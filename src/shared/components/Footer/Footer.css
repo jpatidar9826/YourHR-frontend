@@ -1,0 +1,44 @@
+
+.footer-wrapper{
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;    
+}
+.footer-wrapper h2{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 2.8rem;
+    margin: 0;
+}
+.footer-brand-bar{
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footer-brand-wrapper{
+    background-color: white;
+    border-radius: 0.65rem;
+    padding: 0 5px;
+    margin: 10px 10px;
+}
+.footer-brand-wrapper a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 20px;
+}
+.footer-copy{
+    margin: 10px;
+    font-weight: 400;
+}
+.footer-copy p{
+    margin: 0;
+    padding: 10px;
+}

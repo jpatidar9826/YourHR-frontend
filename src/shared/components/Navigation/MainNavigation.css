@@ -1,0 +1,93 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-navigation__title {
+  width: 100%;
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.main-navigation__title a {
+  text-decoration: none;
+}
+.main-navigation__title a h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 2.8rem;
+  text-shadow: 0 0 2px #3aafa9;
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.logout-button {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: fit-content;
+    margin: auto 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: #3aafa9;
+    background-color: black;
+    line-height: 1.75rem;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: "DM Sans", sans-serif;
+  }
+
+.button-container {
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  text-align: right;
+  width: 90%;
+  margin: auto 0;
+}
+
+.logout-drawer-button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 30px 0;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: black;
+  line-height: 1.75rem;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+}
+
+@media (min-width: 990px) {
+  .main-navigation__title {
+    width: fit-content;
+  }
+  .main-navigation__title a {
+    font-size: 300%;
+  }
+
+  .button-container {
+    width: fit-content;
+    margin: auto 0;
+  }
+
+  .logout-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    margin: auto 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: #3aafa9;
+    background-color: black;
+    line-height: 1.75rem;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: "DM Sans", sans-serif;
+  }
+}

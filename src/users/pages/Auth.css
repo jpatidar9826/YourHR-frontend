@@ -1,0 +1,107 @@
+.auth-wrapper{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../shared/images/loginBg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 5%;
+    line-height: 1.75rem;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    
+}
+.auth-content-wrap{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+    background: transparent;
+    backdrop-filter: blur(15px) saturate(100%) contrast( 90%) brightness( 110% );
+    /* backdrop-filter: blur(30px) saturate(160%) contrast(45%) brightness(140%); */
+    border-radius: 0.75rem;
+    border: 1px solid rgb(0, 0, 0 , 0.7);
+   
+}
+.btn-wrap{  
+    height: 70px;
+}
+.btn-holder{
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    height: 50px;
+    margin: 30px auto;
+    border-radius: 0.75rem;
+    border: 1px solid #000000;
+}
+
+.btn-slider{
+    border-radius: 0.75rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 0;
+    transition: .5s ease-in-out;
+    background-color: #3AAFA9;
+}
+.btn-slider-left{
+    left: 50%;
+}
+
+.btn-holder button{
+    background-color: transparent;
+    width: 50%;
+    height: 100%;
+    outline: 0;
+    border: 0;
+    line-height: 1.75rem;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    z-index: 1;
+    transition: .8s;
+}
+.btn-holder button:hover{
+    font-size: 1.1rem;
+}
+.btn-color{
+    color: #3AAFA9;
+}
+
+.input-wrap{
+    height: fit-content;
+    padding: 0 1rem;
+}
+
+.input-holder{
+    height: 100%;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .auth-wrapper{
+
+    }
+    .auth-content-wrap{
+        width: 450px;
+    }
+    .auth-content{
+    }
+
+}

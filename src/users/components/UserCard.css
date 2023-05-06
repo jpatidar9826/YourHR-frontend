@@ -1,0 +1,83 @@
+.user-item {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  padding: 10px;
+  border-radius: 1rem;
+  background: #3aafa9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user-item__content {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+
+.user-item__image {
+  background-color: black;
+  width: 3rem;
+  height: 3rem;
+  margin: auto 10px auto 0;
+  border-radius: 1rem;
+  border: 1px solid;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.user-item__image h3 {
+  color: #3aafa9;
+  margin: auto;
+}
+.user-item__info h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.user-item__info h3 {
+  margin: 0;
+}
+
+.user-item:hover h2,
+.user-item:active h2,
+.user-item:hover h3,
+.user-item:active h3 {
+}
+
+.logout-button svg {
+  margin: auto 10px auto 0;
+}
+
+.pdf-viewer {
+  height: fit-content;
+  width: 100%;
+  padding-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+.pdf-viewer button {
+  background-color: transparent;
+  border-radius: 0.75rem;
+  width: 100%;
+  max-width: 400px;
+  height: 50px;
+  border: 1px solid black;
+  line-height: 1.75rem;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  position: relative;
+  color: black;
+  transition: 0.8s ease-in-out;
+}
+
+.pdf-viewer button:hover {
+  background-color: black;
+    font-size: 1.1rem;
+    color: #3AAFA9;
+}
